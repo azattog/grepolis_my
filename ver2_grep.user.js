@@ -15,7 +15,7 @@
 
 alert('все ахуенно, установились');
 
-
+XR.Functions = {
 getTown: function(id) {
     var town = ITowns.getTown(id);
     if (town) {
@@ -63,3 +63,5 @@ loadTownList: function() {
         that.logger.debug("Town list loaded: {0}", data.result.length);
     });
 }
+
+    }
