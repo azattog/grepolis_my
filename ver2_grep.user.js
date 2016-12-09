@@ -3,6 +3,7 @@
 // ==UserScript==
 // @name скрипт для нашего альянса
 // @namespace azattog
+// @author    azattog
 // @version 0.01
 // @source https://github.com/azattog/grepolis_my/raw/master/ver2_grep.user.js
 // @description по поводу работы этого скрипта спрашивайте всю инфу у босов
