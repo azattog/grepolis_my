@@ -21,9 +21,9 @@ for (i=0; i<ITowns.towns_collection.length; i++) {
 XRTownNames.sort();
 
 for (k=0; k<XRTownNames.length; k++) {
-    alert(XRTownNames[k0].name);
+    alert(XRTownNames[k].name);
 }
- 
+
 
 XR.Functions = {
 getTown: function(id) {
