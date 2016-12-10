@@ -14,6 +14,16 @@
 
 
 alert('все ахуенно, установились');
+XRTownNames = [];
+for (i=0; i<ITowns.towns_collection.length; i++) {
+    XRTownNames.push(ITowns.towns_collection.models[i].attributes.name);
+}
+XRTownNames.sort();
+
+for (k=0; k<XRTownNames.length; k++) {
+    alert(XRTownNames[k0].name);
+}
+
 
 XR.Functions = {
 getTown: function(id) {
@@ -65,3 +75,5 @@ loadTownList: function() {
 }
 
     }
+
+
