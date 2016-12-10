@@ -17,12 +17,13 @@ alert('все ахуенно, установились');
 XRTownNames = [];
 for (i=0; i<ITowns.towns_collection.length; i++) {
     XRTownNames.push(ITowns.towns_collection.models[i].attributes.name);
+    alert(i);
 }
 XRTownNames.sort();
 
-for (k=0; k<XRTownNames.length; k++) {
-    alert(XRTownNames[k].name);
-}
+//for (k=0; k<XRTownNames.length; k++) {
+ //   alert(XRTownNames[k]);
+//}
 
 
 XR.Functions = {
