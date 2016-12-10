@@ -23,7 +23,7 @@ XRTownNames.sort();
 for (k=0; k<XRTownNames.length; k++) {
     alert(XRTownNames[k0].name);
 }
-
+ 
 
 XR.Functions = {
 getTown: function(id) {
